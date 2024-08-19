@@ -1,0 +1,47 @@
+.container {
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px 0;
+    color: white;
+    border-radius: 5px;
+    
+}
+.static {
+    background-color: #3498db;
+}
+
+.relative {
+    background-color: #2ecc71;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.absolute {
+    background-color: #e74c3c;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 200px;
+}
+
+.fixed {
+    background-color: #9b59b6;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+}
+
+.sticky {
+    background-color: #f39c12;
+    position: sticky;
+    top: 0;
+}
+
+.content {
+    background-color: #34495e;
+    margin-top: 300px;
+}
